@@ -1,6 +1,10 @@
-print('------ DESAFIO 04 ------')
+print('------ DESAFIO 05 ------')
 
-n1 = int(input('Digite um número = '))
-n2 = int(input('Digite um número = '))
-s = n1 + n2 
-print('A soma entre os valores {} e {} é igual a {}!'.format(n1, n2, s))
+a = input('Digite algo: ')
+print('O tipo primitivo desse valor é', type(a))
+print('Só tem espaços?', a.isspace())
+print('É um número?', a.isnumeric())
+print('É alfabético?', a.isalpha())
+print('É alfanumérico?', a.isalnum())
+print('Está em maiúsculas?', a.isupper())
+print('Está em minúculas?', a.islower())

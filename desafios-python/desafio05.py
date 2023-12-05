@@ -1,10 +1,9 @@
 print('------ DESAFIO 05 ------')
 
-a = input('Digite algo: ')
-print('O tipo primitivo desse valor é', type(a))
-print('Só tem espaços?', a.isspace())
-print('É um número?', a.isnumeric())
-print('É alfabético?', a.isalpha())
-print('É alfanumérico?', a.isalnum())
-print('Está em maiúsculas?', a.isupper())
-print('Está em minúculas?', a.islower())
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+s = n1 + n2 
+su = s + 1
+an = s - 1
+print('Os números {} e {} juntos são iguais á {}'.format(n1, n2, s))
+print('Seu sucessor é {}, é seu antecessor é {}'.format(su, an))
