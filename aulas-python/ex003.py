@@ -1,2 +1,2 @@
-n = str, int(input('Digite um valor: '))
+n = bool(input('Digite um valor: '))
 print((n))
