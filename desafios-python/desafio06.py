@@ -6,4 +6,4 @@ dobro = n1 * 2
 triplo = n1 * 3
 raizQ = n1 ** (1/2)
 
-print('O dobro do número que você digitou é, {} o triplo é {} é a raiz quadrada é {}'.format(dobro, triplo, raizQ))
+print('O dobro do número que você digitou é {} e o triplo é {} e a raiz quadrada é {:.2f}'.format(dobro, triplo, raizQ))

@@ -4,4 +4,4 @@ real = float(input('Digite o dinheiro que você tem na carteira: '))
 
 dolar = real / 3.27
 
-print('Você possui {} reais em sua conta!\nVocê pode comprar {:.0f} dólares.'.format(real, dolar))
+print('Você possui {:.2f} reais em sua carteira!\nVocê pode comprar {:.2f} dólares.'.format(real, dolar))
