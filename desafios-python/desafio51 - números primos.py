@@ -4,7 +4,7 @@ numero = int(input('Digite um número: '))
 
 tot = 0 
 
-for c in range(1, numero):
+for c in range(1, numero + 1):
     if numero % c == 0:
         tot += 1
     print('{} '.format(c), end='')
