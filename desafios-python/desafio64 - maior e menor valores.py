@@ -12,12 +12,10 @@ while r == 'S':
     media = num / contagem
 
     if contagem == 1:
-        maior = menor = n
+        menor = n
     else:
-        if n > maior:
-            maior = n
         if n < menor:
             menor = n
 
 print('Você digitou {} números e a média foi {:.2f}'.format(contagem, media))
-print('o maior valor foi {} e o menor foi {}'.format(maior, menor))
+print('o menor foi {}'.format(menor))
