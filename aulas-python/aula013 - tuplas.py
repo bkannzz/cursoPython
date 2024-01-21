@@ -23,8 +23,8 @@ print('Comi pra caramba!')
 
 print('-=' * 11)
 
-for pos, comida in enumerate(lanche):
-    print(f'Eu vou comer {comida} na posição {pos}')
+for pos, comidw in enumerate(lanche):
+    print(f'Eu vou comer {comidw} na posição {pos}')
 
 print('Comi pra caramba!')
 
@@ -45,6 +45,6 @@ print(c)
 print(len(c))
 print(c.count(8))
 print(c.index(1))
-print(c.index(5, 0))
+print(c.index(5, 1))
 
 print('-=' * 11)
