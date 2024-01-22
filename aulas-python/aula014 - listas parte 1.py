@@ -44,7 +44,7 @@ print(f'Lista A: {b}')
 print('-=' * 13)
 
 a = [2, 3, 4, 7]
-b = a[:]
+b = a[:] # aqui somente o valor b receberá o valor
 b[2] = 8 
 
 print(f'Lista A: {a}')
