@@ -13,6 +13,8 @@ if 5 in num:
 else:
     print('Não achei o número 5')
 
+print('-=' * 13)
+
 print(num)
 print(f'Essa lista tem {len(num)} elementos.')
 
