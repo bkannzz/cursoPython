@@ -10,5 +10,5 @@ for pos in palavras:
 
     for letra in pos:
         if letra.lower() in 'aeiou':
-            print(letra.lower(), end='')
+            print(letra, end='')
 

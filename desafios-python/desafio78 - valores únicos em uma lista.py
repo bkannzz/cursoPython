@@ -21,4 +21,4 @@ print('-=' * 30)
 
 valores.sort()
 
-print(f'Você digitou os valores {[-1],valores}')
+print(f'Você digitou os valores {valores}')

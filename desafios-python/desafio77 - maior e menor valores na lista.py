@@ -4,7 +4,7 @@ valores = []
 mai = men = 0
 
 for c in range(0, 5):
-    valores = (int(input(f'Digite um valor para a posição {c}: ')))
+    valores.append(int(input(f'Digite um valor para a posição {c}: ')))
 
     if c == 0:
         mai = men = valores[c]

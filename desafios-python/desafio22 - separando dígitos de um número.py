@@ -13,5 +13,6 @@ if num <= 9999:
     print('Dezena: {}'.format(d))
     print('Centena: {}'.format(c))
     print('Milhar: {}'.format(m))
+    
 else:
     print('Número inválido! Tente novamente.')

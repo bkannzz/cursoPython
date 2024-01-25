@@ -6,4 +6,4 @@ numero = float(input('Digite um número: '))
 
 inteiro = math.trunc(numero)
 
-print('O número', numero, 'tem a parte inteira', inteiro,'.')
+print('O número', numero, 'tem a parte inteira', inteiro,)

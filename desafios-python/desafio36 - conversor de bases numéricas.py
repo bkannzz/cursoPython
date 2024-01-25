@@ -10,7 +10,7 @@ print('''Escolha uma das bases para conversão:
 opção = int(input('Sua opção: '))
 
 if opção == 1:
-    print('{} convertido para binário é igual a {}'.format(num, bin(num)))
+    print('{} convertido para binário é igual a {}'.format(num, bin(num)[2:]))
 
 elif opção == 2:
     print('{} convertido para octal é igual a {}'.format(num, oct(num)[2:]))

@@ -1,6 +1,6 @@
 print('------ DESAFIO 21 ------')
 
-nome = str(input(' Digite seu nome completo: '))
+nome = str(input(' Digite seu nome completo: '))    
 
 maiuscula = nome.upper()
 minuscula = nome.lower()

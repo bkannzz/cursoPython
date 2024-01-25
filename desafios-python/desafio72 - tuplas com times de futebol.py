@@ -25,4 +25,4 @@ print(f'Times em ordem alfabética: {sorted(times)}')
 
 print('-=' * 15)
 
-print(f'O chapecoense está na {times.index('chapecoense')} posição')
+print(f'O chapecoense está na {times.index('Chapecoense')} posição')

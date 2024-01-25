@@ -8,4 +8,7 @@ inverso = ''
 
 for letra in range(len(junto) -1, -1, -1):
     inverso += junto[letra]
-print(junto, inverso)
+if inverso == junto:
+    print('Temos um PALÍNDEOMO!')
+else:
+    print('A frase digitada não é um PALÍNDROMO!')

@@ -22,14 +22,19 @@ while True:
         vbarato = valor
         pbarato = produto
 
+    else:
+        if valor < vbarato:
+            vbarato = valor
+            pbarato = produto
+
     resposta = ' '
 
     while resposta not in 'SN':
-        resposta = str(input('Quer continuar? [S/N] ')).upper()
+        resposta = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
 
     if resposta == 'N':
         print('------------ FIM DO PROGRAMA ------------')
-        print(f'O total da compra foi R${total}')
+        print(f'O total da compra foi R${total:.2f}')
         print(f'Temos {mais1k} produtos custando mais de R$1000.00')
         print(f'O produto mais barato foi {pbarato} que custa R${vbarato}')
         break

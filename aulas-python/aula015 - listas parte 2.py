@@ -45,7 +45,4 @@ for p in alguem: # analisador de maior de idade
         print(f'{p[0]} é menor de idade.')
         totmen += 1
 
-    if totmen == 1:
-        print(f'Temos {totmai} maiores e {totmen} menor de idade.')
-    else:
-        print(f'Temos {totmai} maiores e {totmen} menores de idade.')
+print(f'Temos {totmai} maiores e {totmen} menores de idade.')

@@ -1,20 +1,27 @@
 print('------ DESAFIO 38 ------')
 
-print('Alistamento Militar')
+from datetime import date
 
-nascimento = int(input('Digite sua data de nascimento: '))
+atual = date.today().year
 
-idade = 2024 - nascimento
+nasc = int(input('Ano de nascimento: '))
 
-if idade < 17:
-    menor = 17 - idade
-    print('Você tem {} anos ainda vai se alistar!'.format(idade))
-    print('Faltam mais {} anos pra conseguir se alistar!'.format(menor))
+idade = atual - nasc
 
-elif idade == 17 and idade == 18:
-    print('Você tem {} anos já pode se alistar!'.format(idade))
-    
-elif idade > 18:
-    maior = idade - 18
-    print('Você tem {} anos já passou do tempo de se alistar!'.format(idade))
-    print('Já faz {} anos que já passou o prazo.'.format(maior))
+print('Quem nasceu em {} tem {} anos em {}.'.format(nasc, idade, atual))
+
+if idade == 18:
+    print('Você tem que se alistar IMEDIATAMENTE!')
+
+elif idade < 18:
+    saldo = 18 - idade
+    print('Ainda faltam {} anos para o alistamento'.format(saldo))
+    ano = atual + saldo
+    print('Seu alistamento será em {}'.format(ano))
+
+else:
+    saldo = idade - 18
+    print('Você já deveria ter se alistado há {} anos'.format(saldo))
+    ano = atual - saldo
+    print('Seu alistamento foi em {}'.format(ano))
+
