@@ -41,7 +41,7 @@ b = a
 b[2] = 8 # as duas listas ficaram ligadas, entao as duas receberão o valor
 
 print(f'Lista A: {a}')
-print(f'Lista A: {b}')
+print(f'Lista B: {b}')
 
 print('-=' * 13)
 
@@ -50,4 +50,4 @@ b = a[:] # aqui somente o valor b receberá o valor
 b[2] = 8 
 
 print(f'Lista A: {a}')
-print(f'Lista A: {b}')
+print(f'Lista B: {b}')

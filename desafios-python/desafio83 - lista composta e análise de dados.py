@@ -4,8 +4,8 @@ temp = []
 princ = []
 
 while True:
-    temp.append(str(input('Nome: ')))
-    temp.append(float(input('Peso: ')))
+    temp.append(str(input('Nome: '))) # 0
+    temp.append(float(input('Peso: '))) # 1
 
     if len(princ) == 0:
         mai = men = temp[1]
@@ -40,4 +40,4 @@ print(f'O menor peso foi de {men}Kg. Peso de ', end='')
 
 for p in princ:
     if p[1] == men:
-        print(f'[{p[0]}] ',)
+        print(f'[{p[0]}] ', end='')

@@ -23,13 +23,14 @@ while True:
         resp = str(input('Quer continuar? [S/N] '))
         if resp in 'SN':
              break
+        
         print('ERRO! Responda apenas S ou N.')
     if resp == 'N':
          break
 
 print('-=' * 40)
 
-print('cod', end='')
+print('    ', end='')
 
 for i in jogador.keys():
     print(f'{i:<15}', end='')
