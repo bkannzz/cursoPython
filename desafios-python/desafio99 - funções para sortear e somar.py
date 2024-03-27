@@ -25,4 +25,5 @@ def somaPar(lista):
 
 numeros = list()
 
+sorteia(numeros)
 somaPar(numeros)
