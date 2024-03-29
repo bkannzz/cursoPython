@@ -13,7 +13,7 @@ else:
     gols = 0
 
 if nome.strip() == '':
-    ficha(gols)
+    ficha(gol=gols)
 
 else:
     ficha(nome, gols)
