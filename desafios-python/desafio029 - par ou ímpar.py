@@ -1,6 +1,6 @@
 print('------ DESAFIO 29 ------')
 
-num = int(input('Digite um número: '))
+num = int(input(''))
 
 if num % 2 == 0:
     print('O número {} é PAR!'.format(num))
