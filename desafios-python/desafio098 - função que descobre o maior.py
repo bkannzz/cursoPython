@@ -3,7 +3,8 @@ print('------ DESAFIO 98 ------')
 from time import sleep
 
 def maior(* num):
-    cont = maior = 0
+    cont = 0
+    maior = 0
 
     print('\nAnalisando os valores passados...')
     
