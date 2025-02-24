@@ -3,7 +3,7 @@ print('------ DESAFIO 105 ------')
 from time import sleep
 
 def ajuda(com):
-   
+    titulo(f'Acessando o manual do comando {com}')
     help(com)
 
     sleep(2)
