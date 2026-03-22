@@ -6,7 +6,7 @@ def titulo(txt):
 # PROGRAMA PRINCIPAL
     
 titulo('     CURSO EM VIDEO      ')
- 
+
 titulo('     APRENDA PYTHON      ')
 
 titulo('     GUSTAVO GUANABARA   ')
